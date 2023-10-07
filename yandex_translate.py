@@ -4,7 +4,6 @@ import json
 IAM_TOKEN = 't1.9euelZrJmJaNz5yLnonPzMeMzJfIjO3rnpWanpzMyZ6Ky5SVmseUzYuelpLl8_ccEHtW-e8qb14J_d3z91w-eFb57ypvXgn9zef1656VmpGdlIuOk47InJiRzJ6Um5nK7_zF656VmpGdlIuOk47InJiRzJ6Um5nK.BNq-8e3Z7igyyrmqN1PhndHSDndMqjC8oDmoA6jfi5zoWFhO8N3fZTuS7cAms9My06UCfdghCRljFj6OekHQDg'
 folder_id = 'b1gjivcfmm980lodh5gs'
 target_language = 'en'
-texts = ["Привет", "Мир"]
 
 headers = {
     "Content-Type": "application/json",
