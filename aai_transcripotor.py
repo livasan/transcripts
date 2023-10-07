@@ -14,14 +14,15 @@ repo_name = "REPOSITORY_NAME"
 
 # AssemblyAI transcript endpoint (where we submit the file)
 
-def aai_trainscript(file_url, api_token):
+def aai_trainscript(file_url, api_token, language_code='en'):
     transcript_endpoint = "https://api.assemblyai.com/v2/transcript"
 
     # request parameters where Speaker Diarization has been enabled
     data = {
         "audio_url": file_url,
         "speaker_labels": True,
-        "speakers_expected": 2
+        "speakers_expected": 2,
+        "language_code": language_code
     }
 
     # HTTP request headers

@@ -94,7 +94,7 @@ def split_audio(audio_filename, segment_duration=70 * 60 * 1000):
 
 
 def save_locally(file_name, content):
-    txt_file = file_name + str(datetime.datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")) + '.txt'
-    with open(os.path.join(os.getcwd(), 'results', txt_file), "w") as file:
+    txt_file = file_name + '.txt'
+    with open(os.path.join(os.getcwd(), 'results', txt_file), "w", encoding='utf8') as file:
         # Write the content to the file
         file.write(content)
