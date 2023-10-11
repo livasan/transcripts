@@ -1,0 +1,1 @@
+# Script for transcription and diarization of YouTube videos in any language and preparing data for gpt model training

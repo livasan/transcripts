@@ -39,7 +39,7 @@ for link, language in LinkList:
 
         dialogue = convert_to_dialogue(transcript['words'])
 
-        if language == 'ru':
+        if language != 'en':
             dialogue = dialogue_translate(dialogue)
 
         transcript_link = save_and_upload_file(file_name, dialogue)
